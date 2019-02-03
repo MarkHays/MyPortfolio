@@ -13,14 +13,16 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #7d837e;
+  font-size: 30px;
 }
 
 hr {
   max-width: 50px;
   border-width: 3px;
   border-color: #F05F40;
+  font-family: 'Roboto', sans-serif;
 }
 
 hr.light {
@@ -43,15 +45,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bg-primary {
+
   background-color: #F05F40 !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #000000 !important;
+}
+
+.bg-gray {
+  background-color: #7d837e;
 }
 
 .text-faded {
@@ -81,22 +88,28 @@ section {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+  max-width:100%;
+  height:auto;
 }
 
 img::selection {
   color: #fff;
   background: transparent;
+  max-width:100%;
+  height:auto;
 }
 
 img::-moz-selection {
   color: #fff;
   background: transparent;
+  max-width:100%;
+  height:auto;
 }
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -105,7 +118,7 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -260,7 +273,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -299,7 +312,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn-xl {
