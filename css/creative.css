@@ -84,7 +84,11 @@ section {
   background: #212529;
   text-shadow: none;
 }
-
+img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
 img::-moz-selection {
   color: #fff;
   background: transparent;
